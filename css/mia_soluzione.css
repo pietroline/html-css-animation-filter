@@ -155,7 +155,7 @@
 
 /* Inizio esercizio 13 */
     .ex-13-button:hover .ex-13-top-white{
-        animation: muoviti_top_13 2s linear 0s 2;
+        animation: muoviti_top_13 2s linear 0s;
     }
 
     @keyframes muoviti_top_13 {
@@ -190,7 +190,7 @@
     }
 
     .ex-13-button:hover .ex-13-bottom-white{
-        animation: muoviti_bottom_13 2s linear 0s 2;
+        animation: muoviti_bottom_13 2s linear 0s;
     }
 
     @keyframes muoviti_bottom_13 {
