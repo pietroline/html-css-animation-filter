@@ -1,0 +1,178 @@
+/* Inizio esercizio 1 */
+    .ex-1-square{
+        transition: all 2s ease 0s;
+    }
+
+    .ex-1-square:hover{
+        background-color: red;
+    }
+/* Fine esercizio 1 */
+
+/* Inizio esercizio 2 */
+    .ex-2-square{
+        transition: all 1s linear 0s;
+    }
+
+    .ex-2-square:active{
+        width: 100%;
+    }
+/* Fine esercizio 2 */
+
+/* Inizio esercizio 3 */
+    .ex-3-square{
+        transition: all 1s ease 0s;
+    }
+
+    .ex-3-square:hover{
+        border-radius: 100%;
+    }
+/* Fine esercizio 3 */
+
+/* Inizio esercizio 4 */
+    .ex-4-square{
+        transition: all 1s ease 0s;
+    }
+
+    .ex-4-square:hover{
+        opacity: 0;
+    }
+/* Fine esercizio 4 */
+
+/* Inizio esercizio 5 */
+    .ex-5-square{
+        transition: all 1s ease 0s;
+    }
+
+    .ex-5-square:hover{
+        transform: scale(2,2);
+    }
+
+    .ex-5-square:active{
+        transform: scale(0.5,0.5);
+    }
+/* Fine esercizio 5 */
+
+/* Inizio esercizio 6 */
+    .ex-6-img:hover{
+        filter: grayscale(100%);
+    }
+/* Fine esercizio 6 */
+
+/* Inizio esercizio 7 */
+    .ex-7-img{
+        transition: all 2s ease 0s;
+    }
+
+    .ex-7-img:hover{
+        filter: sepia(50%);
+    }
+/* Fine esercizio 7 */
+
+/* Inizio esercizio 8 */
+    .ex-8-img{
+        transition: all 2s ease 0s;
+    }
+
+    .ex-8-img:hover{
+        filter: sepia(80%);
+        border-radius: 20px;
+    }
+/* Fine esercizio 8 */
+
+/* Inizio esercizio 9 */
+    .ex-9-img{
+        transition: all 2s ease 0s;
+    }
+
+    .ex-9-img:hover{
+        filter: sepia(80%);
+        border-radius: 20px;
+        transform: scale(1.5, 1.5);
+    }
+/* Fine esercizio 9 */
+
+/* Inizio esercizio 10 */
+    .ex-10-icon{
+        animation: ruota 1s linear 0s infinite;
+    }
+
+    @keyframes ruota {
+        0%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+    }
+/* Fine esercizio 10 */
+
+/* Inizio esercizio 11 */
+    .ex-11-icon:hover{
+        animation: ruota 2s linear 0s;
+    }
+
+    @keyframes ruota {
+        0%{
+            transform: rotate(0deg);
+        }
+        80%{
+            transform: rotate(270deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        }
+
+    }
+/* Fine esercizio 11 */
+
+/* Inizio esercizio 12 */
+    .ex-12-button:hover .ex-12-top-white{
+        animation: muoviti_top_12 2s linear 0s;
+    }
+
+    @keyframes muoviti_top_12 {
+        0%{
+            left: 10%;
+        }
+        50%{
+            left: 60%;
+        }
+    }
+
+    .ex-12-button:hover .ex-12-bottom-white{
+        animation: muoviti_bottom_12 2s linear 0s;
+    }
+
+    @keyframes muoviti_bottom_12 {
+        0%{
+            right: 10%;
+        }
+        50%{
+            right: 60%;
+        }
+    }
+/* Fine esercizio 12 */
+
+/* Inizio esercizio 13 */
+    .ex-13-button:hover .ex-13-top-white{
+        animation: muoviti_top_13 2s linear 0s;
+        background-color: red;
+    }
+
+    @keyframes muoviti_top_13 {
+        0%{
+            left: 10%;
+            top: -10px;
+        }
+        25%{
+            left: 80%;
+            top: -10px;
+            transform: rotate(90deg);
+        }
+       
+        
+
+    }
+
+   
+/* Fine esercizio 13 */
