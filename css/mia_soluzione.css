@@ -93,10 +93,10 @@
 
 /* Inizio esercizio 10 */
     .ex-10-icon{
-        animation: ruota 1s linear 0s infinite;
+        animation: ruota_10 1s linear 0s infinite;
     }
 
-    @keyframes ruota {
+    @keyframes ruota_10 {
         0%{
             transform: rotate(360deg);
         }
@@ -108,10 +108,10 @@
 
 /* Inizio esercizio 11 */
     .ex-11-icon:hover{
-        animation: ruota 2s linear 0s;
+        animation: ruota_11 2s linear 0s;
     }
 
-    @keyframes ruota {
+    @keyframes ruota_11 {
         0%{
             transform: rotate(0deg);
         }
