@@ -164,12 +164,20 @@
             left: 10%;
             top: -10px;
         }
-        25%{
-            left: 80%;
+        20%{
+            left: 90%;
             top: -10px;
-            transform: rotate(90deg);
         }
-       
+        30%{
+            left: 90%;
+            top: calc(100% - 10px);
+        }
+        50%{
+            left: 10%;
+            top: calc(100% - 10px);
+        }
+        
+        
         
 
     }
