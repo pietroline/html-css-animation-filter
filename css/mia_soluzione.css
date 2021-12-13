@@ -155,8 +155,7 @@
 
 /* Inizio esercizio 13 */
     .ex-13-button:hover .ex-13-top-white{
-        animation: muoviti_top_13 2s linear 0s;
-        background-color: red;
+        animation: muoviti_top_13 2s linear 0s 2;
     }
 
     @keyframes muoviti_top_13 {
@@ -173,13 +172,56 @@
             top: calc(100% - 10px);
         }
         50%{
-            left: 10%;
+            left: -10%;
             top: calc(100% - 10px);
         }
-        
-        
-        
+        70%{
+            left: -10%;
+            top: -10%;
+        }
+        80%{
+            left: -10%;
+            top: -10px;
+        }
+        100%{
+            left: 10%;
+            top: -10px;
+        }
+    }
 
+    .ex-13-button:hover .ex-13-bottom-white{
+        animation: muoviti_bottom_13 2s linear 0s 2;
+    }
+
+    @keyframes muoviti_bottom_13 {
+        0%{
+            right: 20%;
+            bottom: -10px;
+        }
+        20%{
+            right: 90%;
+            bottom: -10px;
+        }
+        30%{
+            right: 90%;
+            bottom: calc(100% - 10px);
+        }
+        50%{
+            right: -10%;
+            bottom: calc(100% - 10px);
+        }
+        70%{
+            right: -10%;
+            bottom: -10%;
+        }
+        80%{
+            right: -10%;
+            bottom: -10px;
+        }
+        100%{
+            right: 10%;
+            bottom: -10px;
+        }
     }
 
    
