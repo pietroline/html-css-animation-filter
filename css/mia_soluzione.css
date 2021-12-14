@@ -175,16 +175,12 @@
             left: -10%;
             top: calc(100% - 10px);
         }
-        70%{
+        60%{
             left: -10%;
             top: -10%;
         }
-        80%{
+        65%{
             left: -10%;
-            top: -10px;
-        }
-        95%{
-            left: 10%;
             top: -10px;
         }
     }
@@ -210,18 +206,15 @@
             right: -10%;
             bottom: calc(100% - 10px);
         }
-        70%{
+        60%{
             right: -10%;
             bottom: -10%;
         }
-        80%{
+        65%{
             right: -10%;
             bottom: -10px;
         }
-        95%{
-            right: 10%;
-            bottom: -10px;
-        }
+        
     }
 
    
